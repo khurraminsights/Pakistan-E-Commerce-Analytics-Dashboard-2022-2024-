@@ -1,6 +1,6 @@
 # 🇵🇰 Pakistan E-Commerce Analytics Dashboard (2022–2024)
 
-![Dashboard Preview](Pakistan_E-Commerce_Analytics__2022-2024.jpg)
+<img width="1376" height="768" alt="Dashboard" src="https://github.com/user-attachments/assets/29da1766-95fd-4da8-ab25-854ee7038d0b" />
 
 <div align="center">
 
