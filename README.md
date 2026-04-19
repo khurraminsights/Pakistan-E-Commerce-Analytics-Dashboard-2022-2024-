@@ -15,7 +15,7 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 > *"Pakistan's e-commerce market is growing rapidly — but who is buying, what are they buying, and where is the real revenue coming from?"*
 
@@ -25,7 +25,7 @@ Built entirely from scratch — from **database design in SQL Server** to a **4-
 
 ---
 
-## 🎯 Business Problem
+##  Business Problem
 
 Pakistani e-commerce businesses are growing fast but making decisions blindly — without visibility into:
 - Which cities and customer segments drive the most revenue
@@ -37,7 +37,7 @@ This dashboard answers all of these questions with data.
 
 ---
 
-## 📊 Key Findings at a Glance
+##  Key Findings at a Glance
 
 | Metric | Value | Insight |
 |--------|-------|---------|
@@ -50,9 +50,9 @@ This dashboard answers all of these questions with data.
 
 ---
 
-## 🔍 Deep-Dive Analysis
+##  Deep-Dive Analysis
 
-### 🏙️ Geographic Performance
+###  Geographic Performance
 
 ```
 Karachi      ████████████████████  Rank #1 — Highest Revenue
@@ -66,11 +66,11 @@ Peshawar     ██                    Rank #7 — Untapped potential
 
 **📍 Key Finding:** Karachi dominates with highest revenue driven by Electronics purchases. Lahore — Pakistan's second largest city — is significantly underperforming, indicating logistics gaps or low market penetration.
 
-**💡 Recommendation:** Launch targeted campaigns in Lahore and Faisalabad — Pakistan's largest untapped middle-class consumer markets.
+** Recommendation:** Launch targeted campaigns in Lahore and Faisalabad — Pakistan's largest untapped middle-class consumer markets.
 
 ---
 
-### 📦 Product & Category Analysis
+###  Product & Category Analysis
 
 | Category | Revenue | Profit Margin | Status |
 |----------|---------|---------------|--------|
@@ -80,7 +80,7 @@ Peshawar     ██                    Rank #7 — Untapped potential
 | Fashion | PKR 46K | 30–38% | 💎 High margin, low volume |
 | Sports | PKR 20K | 33% | 🟡 Growth potential |
 
-**🏆 Top 3 Products by Revenue:**
+** Top 3 Products by Revenue:**
 
 | Rank | Product | Revenue | Margin |
 |------|---------|---------|--------|
@@ -90,11 +90,11 @@ Peshawar     ██                    Rank #7 — Untapped potential
 
 **📍 Key Finding:** Electronics drives 64% of total revenue but carries the thinnest margins (19–24%). Fashion and Footwear — despite low volumes — deliver 34–38% margins, making them the most profitable categories per rupee sold.
 
-**💡 Recommendation:** A 20% revenue shift from Electronics to high-margin categories would increase overall profit margin from 24% to approximately 30%.
+** Recommendation:** A 20% revenue shift from Electronics to high-margin categories would increase overall profit margin from 24% to approximately 30%.
 
 ---
 
-### 👥 Customer Analysis
+###  Customer Analysis
 
 **By Gender:**
 ```
@@ -118,9 +118,9 @@ Female  ████████████          PKR 415K  (39.4%)
 | Hina Qureshi | Karachi | PKR 215,200 | PKR 71,733 |
 | Usman Tariq | Islamabad | PKR 147,350 | PKR 49,117 |
 
-**📍 Key Finding:** Top 3 customers contribute 51% of total revenue — extreme concentration risk. The 18–24 age group is growing rapidly and represents the future of Pakistan's e-commerce market.
+** Key Finding:** Top 3 customers contribute 51% of total revenue — extreme concentration risk. The 18–24 age group is growing rapidly and represents the future of Pakistan's e-commerce market.
 
-**💡 Recommendation:** Implement a loyalty program for the 25–34 segment. Launch a youth-focused acquisition campaign targeting 18–24 year olds via social media.
+** Recommendation:** Implement a loyalty program for the 25–34 segment. Launch a youth-focused acquisition campaign targeting 18–24 year olds via social media.
 
 ---
 
@@ -142,13 +142,13 @@ October    ████              PKR 55K   ← Mid-season
 November   ██                PKR 28K   ← Pre-winter
 ```
 
-**📍 Key Finding:** March is the peak revenue month — driven by end-of-quarter corporate purchases and spring demand. June spike is clearly Eid-driven. February and May are consistent low points.
+** Key Finding:** March is the peak revenue month — driven by end-of-quarter corporate purchases and spring demand. June spike is clearly Eid-driven. February and May are consistent low points.
 
-**💡 Recommendation:** Pre-load inventory before March and June. Launch flash sales in February and May to maintain monthly revenue above PKR 50K baseline.
+** Recommendation:** Pre-load inventory before March and June. Launch flash sales in February and May to maintain monthly revenue above PKR 50K baseline.
 
 ---
 
-### 💳 Payment Method Analysis
+###  Payment Method Analysis
 
 | Method | Orders | Share | Risk |
 |--------|--------|-------|------|
@@ -157,13 +157,13 @@ November   ██                PKR 28K   ← Pre-winter
 | Credit Card | 6 | 22.2% | ✅ Low risk |
 | JazzCash | 6 | 22.2% | ✅ Low risk |
 
-**📍 Key Finding:** COD remains most popular — reflecting trust gaps in digital payments. However EasyPaisa + JazzCash at 48% combined shows strong mobile wallet adoption.
+** Key Finding:** COD remains most popular — reflecting trust gaps in digital payments. However EasyPaisa + JazzCash at 48% combined shows strong mobile wallet adoption.
 
-**💡 Recommendation:** Offer 5% discount on digital payments to shift customers away from COD — reducing return risk and improving cash flow.
+** Recommendation:** Offer 5% discount on digital payments to shift customers away from COD — reducing return risk and improving cash flow.
 
 ---
 
-## 🎯 Strategic Recommendations Summary
+##  Strategic Recommendations Summary
 
 | Priority | Action | Expected Impact |
 |----------|--------|----------------|
@@ -176,7 +176,7 @@ November   ██                PKR 28K   ← Pre-winter
 
 ---
 
-## 🛠️ Technical Architecture
+##  Technical Architecture
 
 ### Database Schema (SQL Server)
 
@@ -261,7 +261,7 @@ Customers ──1────*── Orders ──1────*── OrderItem
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 📁 Pakistan-ECommerce-Analytics/
@@ -287,7 +287,7 @@ Customers ──1────*── Orders ──1────*── OrderItem
 
 ---
 
-## 🚀 How to Run This Project
+##  How to Run This Project
 
 **Step 1: Database Setup**
 ```sql
@@ -316,7 +316,7 @@ Use slicers to filter by:
 
 ---
 
-## 📈 Business Impact Summary
+##  Business Impact Summary
 
 > ✅ **+25% revenue** through Lahore & Faisalabad market expansion
 >
@@ -330,7 +330,7 @@ Use slicers to filter by:
 
 ---
 
-## 🔗 Connect With Me
+##  Connect With Me
 
 <div align="center">
 
