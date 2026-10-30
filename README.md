@@ -1,33 +1,23 @@
 <div align="center">
 
-# Pakistan E-Commerce Analytics | 2022–2024
+# Pakistan E-Commerce Analytics (2022–2024)
 
-### SQL Server & Power BI Business Intelligence Case Study
+### SQL Server & Power BI | Business Intelligence Portfolio Project
 
-<img width="2244" height="701" alt="Pakistan E-Commerce Analytics Dashboard" src="https://github.com/user-attachments/assets/e54b5c79-4b86-4ddf-974a-1c0a27330f42" />
-
-<div align="center">
-
-# Pakistan E-Commerce Analytics | 2022–2024
-
-### SQL Server & Power BI Business Intelligence Case Study
-
-**Revenue Performance · Product Profitability · Customer Segmentation · Regional Trends · Growth Analysis**
+**Sales Performance · Product Profitability · Customer Insights · Regional Analysis · Revenue Trends**
 
 ![SQL Server](https://img.shields.io/badge/SQL_Server-T--SQL-CC2927?style=for-the-badge)
 ![Power BI](https://img.shields.io/badge/Power_BI-Reporting-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Domain](https://img.shields.io/badge/Industry-Pakistan_E--Commerce-7540C8?style=for-the-badge)
-![Portfolio](https://img.shields.io/badge/Type-Analytics_Case_Study-263248?style=for-the-badge)
+![Industry](https://img.shields.io/badge/Industry-E--Commerce-7540C8?style=for-the-badge)
+![Project](https://img.shields.io/badge/Project-Analytics_Case_Study-263248?style=for-the-badge)
 
-**A four-page analytics report exploring what drives online revenue, how product profitability differs, where customer spending is concentrated, and how sales change over time.**
+*A Pakistani e-commerce case study examining revenue, category margins, customer spending, geographic performance and historical sales trends.*
 
-[Overview](#executive-summary) · [Dashboard](#power-bi-dashboard--combined-portfolio-view) · [Findings](#key-analytical-findings) · [Methodology](#sql--power-bi-methodology) · [Recommendations](#business-recommendations) · [Validation](#quality-checks--limitations)
+[Overview](#executive-summary) · [Dashboard](#power-bi-dashboard--combined-view) · [Findings](#key-analytical-findings) · [Methodology](#sql--power-bi-methodology) · [Recommendations](#business-recommendations) · [Validation](#quality-checks--limitations)
 
 </div>
 
-<!-- BANNER WORKFLOW: Drag your banner image into GitHub's README editor above the title. GitHub will generate a user-attachments Markdown URL. No separate banner folder is required. -->
-
-> **Portfolio and data note:** This is an independent analytics portfolio project, not an official report about Pakistan's entire e-commerce market. Figures below are taken from the supplied four-page Power BI dashboard PDF and describe its displayed dataset/filter context. They have not been independently reconciled against executable SQL scripts or original source tables in this review.
+> **Scope and evidence:** This is an independent portfolio project, not an official analysis of Pakistan's entire e-commerce market. The figures below are transcribed from the supplied Power BI report. The SQL scripts, original model and DAX measures were not supplied for independent verification. The combined dashboard image is a designed summary, not an interactive Power BI report.
 
 ---
 
@@ -79,9 +69,9 @@ The dashboard labels revenue as approximately **1.21M**. These displayed figures
 
 ---
 
-## Power BI Dashboard — Combined Portfolio View
+## Power BI Dashboard — Combined View
 
-<img width="1672" height="941" alt="Pakistan E-Commerce Analytics Dashboard (1)" src="https://github.com/user-attachments/assets/ce36b9d5-d731-480a-ad3d-df7855484464" />
+![Combined Pakistan E-Commerce Analytics dashboard](https://github.com/user-attachments/assets/ce36b9d5-d731-480a-ad3d-df7855484464)
 
 *One consolidated visual combining the four report areas: executive overview, product profitability, customer and regional analysis, and revenue trends. This is a redesigned presentation image, not an exported interactive Power BI page; refer to the source report for exact values and chart definitions.*
 
@@ -236,10 +226,10 @@ The following points should be addressed before claiming that the project is a f
 | File / folder | What it contains |
 |---|---|
 | `README.md` | Project narrative, dashboard walkthrough, findings and limitations |
-| `assets/pakistan-ecommerce-combined-dashboard.png` | Single redesigned dashboard overview image |
+| GitHub-hosted dashboard image | One combined dashboard visual embedded above |
 | `Pakistan E-Commerce Analytics  2022-2024.pdf` | Original four-page Power BI report provided for review |
 
-*The original PDF and single combined dashboard image are included in the prepared package. Executable `.sql` and `.pbix` files were not attached with this request; preserve or add the authentic originals in your repository if available.*
+*The report PDF was supplied as the reference for this rewrite. Executable `.sql` and `.pbix` files were not supplied for independent verification; add the authentic originals to the repository where available.*
 
 ---
 
@@ -267,5 +257,4 @@ Data Analyst | SQL Server | Power BI | Excel
 **From SQL queries and business metrics to explainable Power BI insights.**
 
 </div>
-
 
