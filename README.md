@@ -88,8 +88,6 @@ The dashboard labels revenue as approximately **1.21M**. These displayed figures
 
 **Payment-method breakdown in the original PDF:** COD **8 orders (29.63%)**, EasyPaisa **7 (25.93%)**, Credit Card **6 (22.22%)**, and JazzCash **6 (22.22%)**.
 
-**Accuracy note:** Some labels and figures in the AI-designed combined image may not match the original report exactly. Treat the supplied four-page PDF as the reference for reported metrics. In particular, the combined image’s “Revenue Forecast” title does not establish a statistical forecasting method or future-period predictions.
-
 ---
 
 ## Key Analytical Findings
