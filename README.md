@@ -6,6 +6,11 @@
 
 <img width="2244" height="701" alt="Pakistan E-Commerce Analytics Dashboard" src="https://github.com/user-attachments/assets/e54b5c79-4b86-4ddf-974a-1c0a27330f42" />
 
+<div align="center">
+
+# Pakistan E-Commerce Analytics | 2022–2024
+
+### SQL Server & Power BI Business Intelligence Case Study
 
 **Revenue Performance · Product Profitability · Customer Segmentation · Regional Trends · Growth Analysis**
 
@@ -16,7 +21,7 @@
 
 **A four-page analytics report exploring what drives online revenue, how product profitability differs, where customer spending is concentrated, and how sales change over time.**
 
-[Overview](#executive-summary) · [Dashboard](#power-bi-dashboard-gallery) · [Findings](#key-analytical-findings) · [Methodology](#sql--power-bi-methodology) · [Recommendations](#business-recommendations) · [Validation](#quality-checks--limitations)
+[Overview](#executive-summary) · [Dashboard](#power-bi-dashboard--combined-portfolio-view) · [Findings](#key-analytical-findings) · [Methodology](#sql--power-bi-methodology) · [Recommendations](#business-recommendations) · [Validation](#quality-checks--limitations)
 
 </div>
 
@@ -74,43 +79,24 @@ The dashboard labels revenue as approximately **1.21M**. These displayed figures
 
 ---
 
-## Power BI Dashboard Gallery
+## Power BI Dashboard — Combined Portfolio View
 
-### Page 1 — Executive Sales Overview
+![Pakistan E-Commerce Analytics combined dashboard — 2022–2024](assets/pakistan-ecommerce-combined-dashboard.png)
 
-![Executive overview: KPIs, city revenue, monthly revenue, category share and payment mix](assets/dashboard-1.jpg)
+*One consolidated visual combining the four report areas: executive overview, product profitability, customer and regional analysis, and revenue trends. This is a redesigned presentation image, not an exported interactive Power BI page; refer to the source report for exact values and chart definitions.*
 
-**What this page answers:** How is the business performing overall, which cities and categories account for revenue, and how are orders split across payment types?
+### What the Combined Dashboard Shows
 
-**Visuals:** KPI cards, city revenue bars, monthly revenue line, revenue by category donut, payment-method donut and date/location filters.
+| Analysis area | Visuals and business questions |
+|---|---|
+| **Executive sales overview** | Revenue, orders, customers, profit margin, delivery time, city performance, category share and payment-method mix |
+| **Products & profitability** | Leading products, category-level profit margin, units sold and product revenue versus profit |
+| **Customers & regions** | Revenue by gender, age group and province, plus customer spending and average order value |
+| **Revenue trends & growth** | Monthly revenue patterns, this-year versus last-year comparison, and reported growth indicators |
 
-**Displayed payment mix:** COD **8 orders (29.63%)**, EasyPaisa **7 (25.93%)**, Credit Card **6 (22.22%)**, JazzCash **6 (22.22%)**.
+**Payment-method breakdown in the original PDF:** COD **8 orders (29.63%)**, EasyPaisa **7 (25.93%)**, Credit Card **6 (22.22%)**, and JazzCash **6 (22.22%)**.
 
-### Page 2 — Products & Profitability
-
-![Product analysis: top products, category margin, units and product-level financial table](assets/dashboard-2.jpg)
-
-**What this page answers:** Which products have the greatest revenue and how does margin differ across categories and individual products?
-
-**Visuals:** Top products by revenue, category margin chart, units-sold treemap and product revenue/profit table.
-
-### Page 3 — Customers & Regional Performance
-
-![Customer analytics: gender, age group, province revenue and customer summary](assets/dashboard-3.jpg)
-
-**What this page answers:** Where does recorded customer spending originate and how is it distributed among the ten customers?
-
-**Visuals:** Revenue by gender, age group, province and a customer-level summary of order counts, revenue and average order value.
-
-### Page 4 — Time Series & Growth
-
-![Time series: revenue forecast-labelled chart, year comparisons and growth KPI cards](assets/dashboard-4.jpg)
-
-**What this page answers:** Which months are stronger or weaker, and how are year-over-year and month-over-month indicators presented?
-
-**Visuals:** Monthly revenue chart, current-versus-last-year comparison, YoY %, MoM % and prior-year revenue card.
-
-**Forecast caution:** The chart is titled “Revenue Forecast” in the supplied report, but the PDF does not establish which displayed observations are forecasts, the prediction method or forecast confidence ranges. It should not be described as a validated statistical forecast until documented.
+**Accuracy note:** Some labels and figures in the AI-designed combined image may not match the original report exactly. Treat the supplied four-page PDF as the reference for reported metrics. In particular, the combined image’s “Revenue Forecast” title does not establish a statistical forecasting method or future-period predictions.
 
 ---
 
@@ -250,13 +236,10 @@ The following points should be addressed before claiming that the project is a f
 | File / folder | What it contains |
 |---|---|
 | `README.md` | Project narrative, dashboard walkthrough, findings and limitations |
-| `assets/dashboard-1.jpg` | Executive overview |
-| `assets/dashboard-2.jpg` | Product and profitability analysis |
-| `assets/dashboard-3.jpg` | Customers and regional breakdown |
-| `assets/dashboard-4.jpg` | Revenue trends and growth |
+| `assets/pakistan-ecommerce-combined-dashboard.png` | Single redesigned dashboard overview image |
 | `Pakistan E-Commerce Analytics  2022-2024.pdf` | Original four-page Power BI report provided for review |
 
-*The PDF and dashboard page images are included in the prepared package. Executable `.sql` and `.pbix` files were not attached with this request; preserve or add the authentic originals in your repository if available.*
+*The original PDF and single combined dashboard image are included in the prepared package. Executable `.sql` and `.pbix` files were not attached with this request; preserve or add the authentic originals in your repository if available.*
 
 ---
 
@@ -284,4 +267,5 @@ Data Analyst | SQL Server | Power BI | Excel
 **From SQL queries and business metrics to explainable Power BI insights.**
 
 </div>
+
 
