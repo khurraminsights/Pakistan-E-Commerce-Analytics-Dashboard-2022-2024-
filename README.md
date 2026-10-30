@@ -2,6 +2,8 @@
 
 # Pakistan E-Commerce Analytics (2022–2024)
 
+<img width="2244" height="701" alt="Pakistan E-Commerce Analytics Dashboard" src="https://github.com/user-attachments/assets/855867ec-2e48-4734-afcc-3ebe57a9c4cb" />
+
 ### SQL Server & Power BI | Business Intelligence Portfolio Project
 
 **Sales Performance · Product Profitability · Customer Insights · Regional Analysis · Revenue Trends**
