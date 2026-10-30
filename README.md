@@ -81,7 +81,7 @@ The dashboard labels revenue as approximately **1.21M**. These displayed figures
 
 ## Power BI Dashboard — Combined Portfolio View
 
-![Pakistan E-Commerce Analytics combined dashboard — 2022–2024](assets/pakistan-ecommerce-combined-dashboard.png)
+<img width="1672" height="941" alt="Pakistan E-Commerce Analytics Dashboard (1)" src="https://github.com/user-attachments/assets/ce36b9d5-d731-480a-ad3d-df7855484464" />
 
 *One consolidated visual combining the four report areas: executive overview, product profitability, customer and regional analysis, and revenue trends. This is a redesigned presentation image, not an exported interactive Power BI page; refer to the source report for exact values and chart definitions.*
 
