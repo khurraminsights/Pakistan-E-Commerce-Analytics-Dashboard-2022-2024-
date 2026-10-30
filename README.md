@@ -1,149 +1,287 @@
-# 🇵🇰 Pakistan E-Commerce Analytics Dashboard (2022–2024)
-
-<img width="1376" height="768" alt="Dashboard" src="https://github.com/user-attachments/assets/29da1766-95fd-4da8-ab25-854ee7038d0b" />
-
 <div align="center">
 
-![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-7c3aed?style=for-the-badge&logo=microsoft&logoColor=white)
-![Power Query](https://img.shields.io/badge/Power%20Query-217346?style=for-the-badge&logo=microsoft&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Completed-22c55e?style=for-the-badge)
-![Domain](https://img.shields.io/badge/Domain-E--Commerce%20%7C%20Pakistan-0A66C2?style=for-the-badge)
+# Pakistan E-Commerce Analytics | 2022–2024
+
+### SQL Server & Power BI Business Intelligence Case Study
+
+<img width="2244" height="701" alt="Pakistan E-Commerce Analytics Dashboard" src="https://github.com/user-attachments/assets/e54b5c79-4b86-4ddf-974a-1c0a27330f42" />
+
+
+**Revenue Performance · Product Profitability · Customer Segmentation · Regional Trends · Growth Analysis**
+
+![SQL Server](https://img.shields.io/badge/SQL_Server-T--SQL-CC2927?style=for-the-badge)
+![Power BI](https://img.shields.io/badge/Power_BI-Reporting-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Domain](https://img.shields.io/badge/Industry-Pakistan_E--Commerce-7540C8?style=for-the-badge)
+![Portfolio](https://img.shields.io/badge/Type-Analytics_Case_Study-263248?style=for-the-badge)
+
+**A four-page analytics report exploring what drives online revenue, how product profitability differs, where customer spending is concentrated, and how sales change over time.**
+
+[Overview](#executive-summary) · [Dashboard](#power-bi-dashboard-gallery) · [Findings](#key-analytical-findings) · [Methodology](#sql--power-bi-methodology) · [Recommendations](#business-recommendations) · [Validation](#quality-checks--limitations)
 
 </div>
 
----
-# 🇵🇰 Pakistan E-Commerce Analytics Dashboard (2022–2024)
+<!-- BANNER WORKFLOW: Drag your banner image into GitHub's README editor above the title. GitHub will generate a user-attachments Markdown URL. No separate banner folder is required. -->
 
-> End-to-end analysis uncovering revenue drivers, customer behavior, and profitability gaps across Pakistan’s growing e-commerce market.
-
----
-
-## 🔴 Business Problem
-
-Pakistan’s e-commerce businesses are scaling rapidly but lack structured visibility into revenue drivers, customer segments, and product profitability.  
-
-The operations and strategy teams were unable to identify:
-- Which cities generate the highest revenue  
-- Which product categories deliver sustainable profit margins  
-- When revenue peaks and dips occur  
-- How customer behavior impacts long-term growth  
-
-Without this visibility, decisions around expansion, pricing, and inventory remained reactive rather than data-driven.
+> **Portfolio and data note:** This is an independent analytics portfolio project, not an official report about Pakistan's entire e-commerce market. Figures below are taken from the supplied four-page Power BI dashboard PDF and describe its displayed dataset/filter context. They have not been independently reconciled against executable SQL scripts or original source tables in this review.
 
 ---
 
-##  Project Objective
+## Executive Summary
 
-This analysis was designed to answer key business questions:
+E-commerce teams need more than a headline revenue number. They need visibility into **which cities and products generate sales, which categories retain profit, how customers contribute to revenue, and when demand changes**.
 
-- Which customer segments and cities contribute the most revenue?  
-- Where are the biggest profit margin leakages across product categories?  
-- What are the seasonal trends in revenue performance?  
-- What is the projected revenue trajectory for the next 3 months?  
+This project presents a **SQL Server + Power BI** analytics workflow focused on Pakistani e-commerce operations during **2022–2024**. The Power BI report organizes the analysis into four views: executive performance, product and category profitability, customer demographics and geography, and time-based revenue trends.
 
----
+### Project snapshot
 
-##  Key Findings
+| Attribute | Project detail |
+|---|---|
+| Role | Data Analyst |
+| Industry | E-commerce / Retail |
+| Geographic context | Pakistan |
+| Reporting period | 2022–2024 |
+| Project tools | SQL Server and Power BI (as represented in the repository) |
+| Available evidence for this rewrite | Four-page Power BI dashboard PDF |
+| Dashboard pages | 4 |
+| Main analysis areas | Revenue, products, customers, geography, payments and growth |
 
-✦ Electronics drives **64% of total revenue** but operates at a thin **19–24% margin**  
+### Headline performance — as shown in the dashboard
 
-✦ Karachi ranks #1 in revenue, while Lahore significantly underperforms despite being a major market  
+| KPI | Displayed result |
+|---|---:|
+| **Total revenue** | **PKR 1,206,500** |
+| **Total profit** | **PKR 289,500** |
+| **Overall profit margin** | **24.00%** |
+| **Orders** | **27** |
+| **Customers** | **10** |
+| **Average delivery time** | **5.04 days** |
+| **Average order value** | **PKR 44,685.19** (27 orders) |
 
-✦ Top 3 customers contribute **51% of total revenue**, indicating high concentration risk  
-
-✦ March is the peak revenue month, while February and May consistently show demand drops  
-
-✦ Average delivery time is **5.04 days**, exceeding the 3-day benchmark  
-
-✦ Fashion and Footwear categories deliver **34–38% margins**, the highest across all categories  
-
----
-
-##  Business Recommendations
-
-1. Expand aggressively in Lahore and Faisalabad — both represent untapped high-potential markets  
-2. Shift product mix toward Fashion and Footwear — higher margins can increase overall profitability  
-3. Reduce reliance on top customers — diversify revenue through acquisition campaigns  
-4. Promote digital payments (EasyPaisa, JazzCash) — reduce COD-related return risks  
-5. Pre-load inventory before March and June — align supply with peak demand cycles  
+The dashboard labels revenue as approximately **1.21M**. These displayed figures are from the report and should not be generalized to the national market.
 
 ---
 
-##  Measurable Impact
+## Business Questions
 
-| Metric | Value |
-|--------|-------|
-| Revenue analyzed | PKR 1.21M |
-| Profit margin gap identified | Electronics vs Fashion (≈10–15% difference) |
-| Customer concentration risk | Top 3 customers = 51% revenue |
-| Growth opportunity | Lahore & Faisalabad expansion |
-| Operational inefficiency | Delivery time above benchmark |
-
----
-
-## 🛠️ Tools & Techniques Used
-
-| Tool / Technique | Purpose |
-|-----------------|---------|
-| SQL Server | Data extraction, joins, and business logic |
-| Power BI | Interactive dashboard and reporting |
-| DAX | KPI calculations and time intelligence |
-| CTEs | Multi-step query logic |
-| Window Functions | Ranking and growth analysis |
-| Power Query | Data cleaning and transformation |
+1. Which cities and provinces contribute the most revenue?
+2. Which product categories drive revenue—and which generate the strongest margins?
+3. Who are the highest-revenue products and customers?
+4. What is the relationship between category sales and units sold?
+5. How does revenue differ across customer age groups and gender groups?
+6. Which payment methods appear in the order mix?
+7. How does revenue change by month, and how do current periods compare with prior periods?
+8. Which operational measures, such as delivery time, warrant further investigation?
 
 ---
 
-##  Data Model / Schema
+## Power BI Dashboard Gallery
 
-- 5 relational tables: Customers, Orders, OrderItems, Products, Returns  
-- One-to-many relationships between customers → orders → order items  
-- Normalized structure to ensure scalability and efficient querying  
-- Returns table integrated for analyzing refund patterns and customer behavior  
+### Page 1 — Executive Sales Overview
+
+![Executive overview: KPIs, city revenue, monthly revenue, category share and payment mix](assets/dashboard-1.jpg)
+
+**What this page answers:** How is the business performing overall, which cities and categories account for revenue, and how are orders split across payment types?
+
+**Visuals:** KPI cards, city revenue bars, monthly revenue line, revenue by category donut, payment-method donut and date/location filters.
+
+**Displayed payment mix:** COD **8 orders (29.63%)**, EasyPaisa **7 (25.93%)**, Credit Card **6 (22.22%)**, JazzCash **6 (22.22%)**.
+
+### Page 2 — Products & Profitability
+
+![Product analysis: top products, category margin, units and product-level financial table](assets/dashboard-2.jpg)
+
+**What this page answers:** Which products have the greatest revenue and how does margin differ across categories and individual products?
+
+**Visuals:** Top products by revenue, category margin chart, units-sold treemap and product revenue/profit table.
+
+### Page 3 — Customers & Regional Performance
+
+![Customer analytics: gender, age group, province revenue and customer summary](assets/dashboard-3.jpg)
+
+**What this page answers:** Where does recorded customer spending originate and how is it distributed among the ten customers?
+
+**Visuals:** Revenue by gender, age group, province and a customer-level summary of order counts, revenue and average order value.
+
+### Page 4 — Time Series & Growth
+
+![Time series: revenue forecast-labelled chart, year comparisons and growth KPI cards](assets/dashboard-4.jpg)
+
+**What this page answers:** Which months are stronger or weaker, and how are year-over-year and month-over-month indicators presented?
+
+**Visuals:** Monthly revenue chart, current-versus-last-year comparison, YoY %, MoM % and prior-year revenue card.
+
+**Forecast caution:** The chart is titled “Revenue Forecast” in the supplied report, but the PDF does not establish which displayed observations are forecasts, the prediction method or forecast confidence ranges. It should not be described as a validated statistical forecast until documented.
 
 ---
 
-##  Project Files
+## Key Analytical Findings
 
-| File | Description |
-|------|-------------|
-| Pakistan_ECommerce_Dashboard.pbix | Power BI dashboard |
-| SQL Scripts | Data creation and analysis queries |
-| Dashboard_Screenshot.jpg | Full dashboard preview |
-| Pakistan_ECommerce_Analytics.pdf | Exported business report |
-| README.md | Project documentation |
+### 01 — Electronics dominates recorded revenue
+
+The dashboard reports **PKR 777.35K (64.43%)** of total revenue for Electronics. Other categories contribute smaller shares, including **PKR 258.3K (21.41%)** for Home Appliances. This indicates a **concentrated product mix** in the displayed sample.
+
+**Business interpretation:** Evaluate revenue concentration alongside gross profit and inventory exposure rather than maximizing electronics sales without considering margin.
+
+### 02 — Product revenue and margin tell different stories
+
+The product table identifies:
+
+| Product | Revenue (PKR) | Profit (PKR) | Margin |
+|---|---:|---:|---:|
+| HP Laptop 15s | 342,000 | 66,000 | 19.30% |
+| Samsung Galaxy A54 | 243,950 | 57,950 | 23.75% |
+| Xiaomi Redmi Note 12 | 182,900 | 44,900 | 24.55% |
+| Orient AC 1.5 Ton | 182,400 | 38,400 | 21.05% |
+| Bonanza Satrangi Suit | 17,110 | 6,610 | 38.63% |
+
+**Business interpretation:** High-revenue electronics generate substantial profit in absolute terms, while some fashion products have higher **percentage margins**. Percentage margin alone does not prove a category is the best use of inventory capital.
+
+### 03 — Karachi leads the displayed city breakdown
+
+Karachi appears at the top of the city revenue chart. At the province level, the dashboard shows **Sindh PKR 573.85K** and **Punjab PKR 397.47K**, with ICT and KPK below those figures.
+
+**Business interpretation:** Higher revenue may reflect the customer/sample composition and transaction values. The dataset is too small to conclude that one province is universally more attractive for expansion.
+
+### 04 — Customer spending is concentrated in a small sample
+
+The dashboard contains **10 customers and 27 orders**. The customer summary shows individual totals such as Ahmed Khan at **PKR 263,650** and Hina Qureshi at **PKR 215,200**.
+
+**Business interpretation:** Customer-level comparisons can guide retention analysis, but conclusions about broad consumer demographics should remain tentative with only ten customers.
+
+### 05 — Monthly revenue is volatile
+
+The monthly trend contains visible peaks and low periods across 2022–2024. The fourth page also displays **87.15** as a YoY growth indicator and **2.42** as a MoM growth indicator.
+
+**Verification needed:** These measures lack an explicit date/filter context in the PDF, and another growth card displays **2.4%**. The growth rates should be reconciled with a documented numerator, denominator and reporting period before being used as headline claims.
+
+### 06 — Average delivery time needs a benchmark
+
+The executive KPI displays **5.04 average delivery days**. The report alone does not establish a promised delivery SLA, so a breach or service failure cannot be inferred solely from this average.
+
+**Business interpretation:** Compare performance against published service commitments and examine the distribution, not only the mean.
 
 ---
 
-##  Related Projects
+## SQL & Power BI Methodology
 
-- Supply Chain Analytics Dashboard (Procurement → Inventory → Sales → Logistics)  
-- Customer Segmentation using RFM Analysis  
+The repository identifies this as a SQL Server and Power BI project. A reasonable analytical workflow is shown below, but **the exact SQL scripts, model relationships, Power Query steps and DAX measures were not supplied with this PDF**, so those implementation details remain to be verified.
+
+```text
+        E-COMMERCE SOURCE TABLES
+                  |
+        SQL SERVER / DATA QUERYING
+                  |
+         VALIDATION & CLEANING
+                  |
+             POWER BI MODEL
+                  |
+       MEASURES & SEGMENTATION
+                  |
+       +----------+----------+
+       |          |          |
+     Sales      Products   Customers
+       |          |          |
+       +----------+----------+
+                  |
+       REVENUE & GROWTH REPORT
+```
+
+### Key metrics requiring reproducible definitions
+
+| Measure | Definition to document |
+|---|---|
+| Total Revenue | Sum of recognized net transaction revenue |
+| Total Profit | Revenue less applicable costs, based on a documented cost model |
+| Profit Margin % | Total Profit / Total Revenue × 100 |
+| Order Count | Distinct valid order identifiers |
+| Customer Count | Distinct customers in the selected report scope |
+| Average Order Value | Revenue / distinct orders |
+| Average Delivery Days | Mean of delivery-minus-order duration for qualifying orders |
+| YoY Growth % | (Selected-period revenue − comparable prior-year revenue) / prior-year revenue |
+| MoM Growth % | (Selected-month revenue − previous-month revenue) / previous-month revenue |
+
+**Technical skills illustrated by the project framing:** relational querying, data profiling, revenue aggregation, product/category analysis, KPI definition, interactive Power BI visuals and time-based reporting. The original implementation files are needed to verify precise functions and formulas.
 
 ---
 
-##  Connect With Me
+## Business Recommendations
+
+| Focus | Evidence from report | Recommended follow-up |
+|---|---|---|
+| **Product portfolio** | Electronics contributes 64.43% of revenue | Review margin, stock exposure and sales concentration together |
+| **Profitability** | High-revenue items have different profit margins | Compare contribution profit after relevant costs and discounts |
+| **Customer retention** | Ten customers contribute all recorded revenue | Investigate repeat purchases and customer cohorts with a larger sample |
+| **Geography** | Karachi and Sindh lead in the displayed breakdown | Normalize by customer coverage and acquisition cost before expansion |
+| **Payments** | Four payment methods appear in the order mix | Add payment success, return and settlement KPIs before recommending a shift |
+| **Delivery** | Average reported delivery time is 5.04 days | Measure on-time % against an explicitly defined SLA |
+| **Time trends** | Volatile monthly revenue and multiple growth cards | Validate calendar logic, comparisons and forecasting method |
+
+These are **proposed analytical actions**, not improvements already achieved by the project.
+
+---
+
+## Quality Checks & Limitations
+
+The following points should be addressed before claiming that the project is a fully validated production-style analytical report.
+
+- **Small sample:** Only **27 orders and 10 customers** are displayed. Avoid population-level claims about Pakistan's entire e-commerce market.
+- **Duplicated slicer label:** Page 1 contains two controls labelled **“Select City”**. Confirm whether one should instead be Province or another dimension.
+- **Demographic coverage:** The gender chart values shown do not visibly sum to the overall revenue total; check blank/other/unclassified records or filter context.
+- **Revenue by province:** The displayed province totals should be checked against the national total for unmatched regions or missing classifications.
+- **Time intelligence:** The **87.15 YoY**, **2.42 MoM** and **2.4% growth** labels need a defined date context and reconciliation.
+- **Forecast:** Document forecast methodology and distinguish historical data from predictions.
+- **Source reproducibility:** Include SQL scripts, source tables or a data dictionary, PBIX and DAX measure definitions where shareable.
+- **Reporting clarity:** Standardize units (PKR, thousands and millions), display precision and chart titles.
+
+### Release checklist
+
+- [ ] SQL revenue, profit, order and customer totals agree with Power BI.
+- [ ] Revenue by product/category/city reconciles to overall revenue.
+- [ ] Growth measures have tested prior-period comparisons.
+- [ ] Forecast chart has a documented method, horizon and uncertainty.
+- [ ] Slicers, relationship filter directions and blanks have been reviewed.
+- [ ] Original `.pbix` and SQL source files are available where permitted.
+- [ ] Dashboard screenshots are updated after any corrections.
+
+---
+
+## Repository Contents
+
+| File / folder | What it contains |
+|---|---|
+| `README.md` | Project narrative, dashboard walkthrough, findings and limitations |
+| `assets/dashboard-1.jpg` | Executive overview |
+| `assets/dashboard-2.jpg` | Product and profitability analysis |
+| `assets/dashboard-3.jpg` | Customers and regional breakdown |
+| `assets/dashboard-4.jpg` | Revenue trends and growth |
+| `Pakistan E-Commerce Analytics  2022-2024.pdf` | Original four-page Power BI report provided for review |
+
+*The PDF and dashboard page images are included in the prepared package. Executable `.sql` and `.pbix` files were not attached with this request; preserve or add the authentic originals in your repository if available.*
+
+---
+
+## Future Development
+
+1. **Validate the SQL-to-Power-BI pipeline** with reproducible totals and a data dictionary.
+2. **Improve KPI design** using explicit definition cards, dynamic dates and well-labelled metrics.
+3. **Add customer cohort and repeat-order analysis** after obtaining a larger representative dataset.
+4. **Strengthen profitability reporting** with discounts, returns, delivery and acquisition costs.
+5. **Document forecasting** with an explicit method, backtesting and uncertainty bands.
+6. **Optimize the GitHub case study** with verified visuals, a model diagram and reusable scripts.
+
+---
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Now-7c3aed?style=for-the-badge&logo=github)](https://khurramnaveed3233.github.io/Portfolio-/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Khurram%20Naveed-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/khurram-naveed-0083851aa/)
-[![GitHub](https://img.shields.io/badge/GitHub-Khurramnaveed3233-333?style=for-the-badge&logo=github)](https://github.com/Khurramnaveed3233)
-[![Email](https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:khurramnaveed4545@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-Chat%20Now-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/923407209828)
+### About the Analyst
+
+**Khurram Naveed**  
+Data Analyst | SQL Server | Power BI | Excel
+
+[![GitHub](https://img.shields.io/badge/GitHub-khurraminsights-181717?style=for-the-badge&logo=github)](https://github.com/khurraminsights)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/khurram-naveed-0083851aa/)
+
+**From SQL queries and business metrics to explainable Power BI insights.**
 
 </div>
 
----
-
-<div align="center">
-
-⭐ **If this project added value, please give it a star!** ⭐
-
-*Made with ❤️ by Khurram Naveed — Turning Data into Decisive Action*
-
-*© 2024 Khurram Insights. All rights reserved.*
-
-</div>
